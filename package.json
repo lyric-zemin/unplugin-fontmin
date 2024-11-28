@@ -1,17 +1,17 @@
 {
-  "name": "unplugin-starter",
+  "name": "unplugin-fontmin",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@9.9.0",
   "description": "",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/unplugin-starter#readme",
+  "homepage": "https://github.com/lyric-zemin/unplugin-fontmin#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/unplugin-starter.git"
+    "url": "git+https://github.com/lyric-zemin/unplugin-fontmin.git"
   },
   "bugs": {
-    "url": "https://github.com/antfu/unplugin-starter/issues"
+    "url": "https://github.com/lyric-zemin/unplugin-fontmin/issues"
   },
   "keywords": [
     "unplugin",
@@ -121,6 +121,7 @@
     }
   },
   "dependencies": {
+    "fontmin": "^2.0.0",
     "unplugin": "^1.12.2"
   },
   "devDependencies": {

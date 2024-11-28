@@ -1,3 +1,13 @@
 export interface Options {
-  // define your plugin options here
+  /**
+   * The suffixes to match
+   * @default ['ttf']
+   */
+  // suffixes?: string[]
+
+  /**
+   * The output directory
+   * @default 'dist'
+   */
+  outputDir?: string
 }
