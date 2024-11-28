@@ -23,7 +23,7 @@ export const unpluginFactory: UnpluginFactory<
     async writeBundle() {
       const text = await readText(resolvedOutputDir)
       const fontmin = new Fontmin()
-        .src(`${outputDir}/**/*.{${suffixes.join(',')}}`)
+        .src(`${outputDir}/**/*.{${suffixes.join(',')}}`) // 这里glob(**)匹配的目录会被同步写入dest
         .dest(resolvedOutputDir)
 
       // if (suffixes.includes('otf'))
